@@ -15,7 +15,7 @@ ENV GRIMOIRELAB_RELEASE=${GRIMOIRELAB_RELEASE}
 # install dependencies
 RUN apt-get update && \
     apt-get -y install --no-install-recommends \
-    passwd \
+    passwd gzip \
     bash locales-all \
     gcc g++ gfortran \
     git git-core \
